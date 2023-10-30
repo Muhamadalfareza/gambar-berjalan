@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamabar bergerak</title>
+    <style>
+         .scrolling-image{
+            position:absolute;
+            top: 30%;
+            left: 0;
+            animation: scrolling 10s linear infinite;}
+            @keyframes scrolling-image{to{left: 800%;}}
+
+    </style>
+</head>
+<body>
+    <h1><b>scrolling-image star of football</b></h1>
+    <marquee id="gamabar" behavior="scrolling" directon="right" scrollmount="15" onmouseover="stopMarquee()" onmouseout="star">
+    <a href="https://www.google.com/search?q=foto+ronaldo+jpg&sca_esv=577807614&tbm=isch&sxsrf=AM9HkKkavs9p_5EqRRh969sQ4T5V-uXXOw:1698671937357&source=lnms&sa=X&ved=2ahUKEwjmq6mL7p2CAxXf2DgGHfjaCJsQ_AUoAXoECAEQAw&biw=1366&bih=643&dpr=1#imgrc=hnXrHFM4Sd92jM"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ronaldo_in_2018.jpg" width="16%">
+    <a href="https://www.google.com/search?q=foto+messi+jpg&tbm=isch&ved=2ahUKEwj0sJeO7p2CAxVUTmwGHchmCHQQ2-cCegQIABAA&oq=foto+messi+jpg&gs_lcp=CgNpbWcQAzIECAAQHjoHCAAQGBCABDoICAAQCBAHEB46BQgAEIAEOgYIABAHEB46CAgAEAUQBxAeUOMMWK9FYNRNaANwAHgAgAHqBIgBtRmSAQwwLjExLjIuMi4wLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=R60_ZbTxFNScseMPyM2hoAc&bih=643&biw=1366#imgrc=zF7VMB_uGOUfZM"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Leo_messi_barce_2005.jpg" width="13.3%">
+    <a href="https://en.m.wikipedia.org/wiki/File:Neymar_%28cropped%29.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Neymar_%28cropped%29.jpg" width="11.5%">
+    <a href="https://en.m.wikipedia.org/wiki/File:Mohamed_Salah_2017.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Mohamed_Salah_2017.jpg" width="12.7%">
+    <a href="https://id.m.wikipedia.org/wiki/Berkas:Molde-Zenit_%282%29_Erling_Braut_H%C3%A5land_2018-8-30.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Molde-Zenit_%282%29_Erling_Braut_H%C3%A5land_2018-8-30.jpg" width="12.9%">
+    <a href="https://en.m.wikipedia.org/wiki/File:Karim_Benzema_2018.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Karim_Benzema_2018.jpg" width="12%">
+    <a href="https://commons.wikimedia.org/wiki/File:Iker_Casillas.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Iker_Casillas.jpg" width="12%">
+    <a href="https://en.m.wikipedia.org/wiki/File:Gianluigi_Buffon_%2831815848711%29.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Gianluigi_Buffon_%2831815848711%29.jpg" width="13%">
+    <a href="https://id.m.wikipedia.org/wiki/Berkas:Petr_Cech_-_Chelsea_vs_Bolton_Wanderers_%281%29.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Petr_Cech_-_Chelsea_vs_Bolton_Wanderers_%281%29.jpg" width="12%">
+    <a href="https://id.wikipedia.org/wiki/Berkas:Gianluigi_Donnarumma_ICC_2016.jpg"></a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gianluigi_Donnarumma_ICC_2016.jpg" width="10%>
+    </marquee>
+    <script>
+        const marquee =document.getElementById('gambar')
+        function stopMarquee(){marquee.stop()};
+        function startMarquee(){marquee.star};
+    </script>
+</body>
+</html>
